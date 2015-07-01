@@ -17,16 +17,15 @@
    	     <h1>Don't Stop Madlibbin'!</h1>
       </div>
 
-       	<div class="button"ng-click="male()">Male name</div>
-       	<div class="button"ng-click="female()">Female name</div>
+       	
 		
-	  </div>
+	  
 
 	  <div class="words">
 	  	<h2> Please Provide the following words</h2>
 	  	<table>
 	       
-	       <tr><td class="label">Female Name</td><td class="input"><input type="text" ng-model="female_name"></td>
+	       <tr><td class="label">Name</td><td class="input"><input type="text" ng-model="female_name"></td>
 	       <td class="label">Adjective</td>  <td class="input"><input type="text" ng-model="adjective"></td> 
 	       <td class="label">Time </td>      <td class="input"><input type="text" ng-model="time_of_day"></td></tr> 
 	       <tr><td class="label">Destination</td><td class="input"><input type="text" ng-model="destination"></td> 
@@ -40,9 +39,11 @@
 	      
 	   </table>
       </div>
+      <div class="button"ng-click="male()">Male name</div>
+       	<div class="button"ng-click="female()">Female name</div>
       <div class="story">
      
-         <p>{{female_name}} was just a small town {{girlboy}}, livin in a {{adjective}} world. {{heshe}} took a {{time_of_day}} train going {{destination}}. Just a city {{girlboy}}, born and raised in south {{location}}, {{heshe}} took a {{time_of_day}} train going {{destination2}}. </p> 
+         <p>{{character_name}} was just a small town {{girlboy}}, livin in a {{adjective}} world. {{heshe}} took a {{time_of_day}} train going {{destination}}. Just a city {{girlboy}}, born and raised in south {{location}}, {{heshe}} took a {{time_of_day}} train going {{destination2}}. </p> 
  
          <p>A {{occupation}} in a {{adjective2}} room. The smell of {{alcohol}} and {{adjective3}} perfume. For a smile they can share the night. It goes on and on and on.</p>
       </div>
