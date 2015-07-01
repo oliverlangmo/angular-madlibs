@@ -50,3 +50,5 @@ body{
 	text-align: right;
 	padding-right: 10px;
 }
+.button { cursor: pointer; margin: 10px; padding: 10px; border: 1px solid black; width: 100px;  }
+.button:hover { border: 1px solid green; }

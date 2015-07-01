@@ -1,6 +1,8 @@
 var thisApp = angular.module('demo', [])
 
 thisApp.controller('demoCtrl', function($scope) {
+	$scope.girlboy = 'girl';
+	$scope.heshe = 'she';
 	$scope.female_name = '';
 	$scope.adjective = '';
 	$scope.time_of_day='';
@@ -14,8 +16,14 @@ thisApp.controller('demoCtrl', function($scope) {
     $scope.adjective3='';  
 
 
-
-
+$scope.male=function(){
+  $scope.girlboy="boy";
+  $scope.heshe="he";
+};
+$scope.female = function () { 
+	$scope.girlboy = 'girl';  
+    $scope.heshe = "she";
+};
 
 
 
