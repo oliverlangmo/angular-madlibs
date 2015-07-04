@@ -3,7 +3,7 @@ var thisApp = angular.module('demo', [])
 thisApp.controller('demoCtrl', function($scope) {
 	$scope.girlboy = 'girl';
 	$scope.heshe = 'she';
-	$scope.female_name = '';
+	$scope.character_name = '';
 	$scope.adjective = '';
 	$scope.time_of_day='';
 	$scope.destination='';
